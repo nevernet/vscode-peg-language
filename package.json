@@ -1,0 +1,36 @@
+{
+    "name": "peg",
+    "displayName": "vscode-gen-language",
+    "description": "vscode-gen-language",
+    "version": "0.0.1",
+    "publisher": "Daniel",
+    "engines": {
+        "vscode": "^1.5.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "peg",
+                "aliases": [
+                    "peg",
+                    "peg"
+                ],
+                "extensions": [
+                    ".peg",
+                    ".pegjs"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "peg",
+                "scopeName": "source.pegjs",
+                "path": "./syntaxes/pegjs.json"
+            }
+        ]
+    }
+}

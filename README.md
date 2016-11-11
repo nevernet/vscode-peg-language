@@ -1,0 +1,1 @@
+# syntax highlighting for .peg and .pegjs
